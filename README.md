@@ -8,6 +8,13 @@
 
 ```
 .
+├── adc_receiver/         接收端：ACM9238 采集 + 片上解码 + 串口上报
+│   ├── rtl/              顶层 / uart_tx / laser_measure / uart_report
+│   ├── tb/               3 组自检测试台
+│   ├── constr/           引脚约束
+│   ├── tools/            电脑端串口解码脚本
+│   └── run_all.ps1       一键跑全部仿真
+│
 ├── labs/                 通用数字模块 RTL + 自检测试台
 │   ├── rtl/              10 个可综合模块
 │   ├── tb/               9 组自检测试台
