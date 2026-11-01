@@ -1,0 +1,35 @@
+# Vivado 生成物（不要提交）
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.gen/
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.pb
+*.dcp
+*.bit
+*.ltx
+*.vdi
+*.rst
+*.backup.*
+
+# 仿真产物
+work/
+*.vvp
+*.vcd
+*.fst
+*.out
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
+Thumbs.db
